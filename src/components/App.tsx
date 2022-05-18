@@ -1,10 +1,9 @@
 import React from 'react';
+import Header from './header/header.component';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      Holis
-    </div>
+    <Header />
   );
 }
 
