@@ -13,27 +13,27 @@ interface MenuItem {
 export const MENU_ITEMS: MenuItem[] = [
   {
     label: 'Inicio',
-    url: '',
+    url: '#home_section',
     Icon: Home,
   },
   {
     label: 'Quiénes somos',
-    url: '',
+    url: '#about_us_section',
     Icon: PeopleAlt,
   },
   {
     label: 'Ubicación',
-    url: '',
+    url: '#location_section',
     Icon: LocationOn,
   },
   {
     label: 'Horarios',
-    url: '',
+    url: '#hours_section',
     Icon: AccessTime,
   },
   {
     label: 'Contacto',
-    url: '',
+    url: '#contact_section',
     Icon: Phone,
   },
 ]

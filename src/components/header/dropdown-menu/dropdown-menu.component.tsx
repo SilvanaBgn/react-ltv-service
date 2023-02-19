@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import MenuIcon from '@mui/icons-material/Menu';
 
 import { MENU_ITEMS } from '../../../constants/header'
 
@@ -57,7 +57,9 @@ const DropdownMenu = () => {
               <MenuItem
                 onClick={handleClose}
                 LinkComponent='a'
-                href={url} >
+                href={url}
+                color='secondary'
+              >
                   <ListItemIcon>
                     <Icon fontSize="small" />
                   </ListItemIcon>
